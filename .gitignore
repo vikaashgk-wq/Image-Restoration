@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# large / regenerable
+data/
+!data/.gitkeep
+weights/*.pth
+!weights/.gitkeep
+results/*.png
+results/*.jpg
+!results/.gitkeep
+
+.DS_Store
+webapp/uploads/*
+webapp/restored/*
+!webapp/uploads/.gitkeep
+!webapp/restored/.gitkeep
